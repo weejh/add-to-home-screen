@@ -10,7 +10,7 @@
     <script src="../../src/addtohomescreen.js"></script>
     <script>
     addToHomescreen();
-    if (window.navigator.standalone !== true) {
+    if (window.navigator.standalone === true) {
       document.querySelector('.hello').insertAdjacentHTML('afterend', '<div id="two">standalone</div>')
     }
     </script>
