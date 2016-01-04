@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "standard",
-    "start": "npm run start-server",
-    "start-server": "node server.js"
+    "start": "npm run start-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3",
+    "http-server": "^0.8.5",
     "nodemon": "^1.8.1"
   }
 }
