@@ -8,15 +8,19 @@
     <title>Add To Home</title>
     <link rel="stylesheet" type="text/css" href="../../style/addtohomescreen.css">
     <script src="../../src/addtohomescreen.js"></script>
-    <script>
+    <script defer>
     addToHomescreen();
-    if (window.navigator.standalone === true) {
-      document.querySelector('body').style.backgroundColor='red'
+
+    document.querySelector('.navigator').textContent = 'window navigator is:' +  window.navigator.standalone
+
+    if (window.navigator.standalone) {
+      document.querySelector('body').style.backgroundColor ='red'
     }
     </script>
   </head>
   <body>
     <div class='hello'>hello world </div>
+    <div class='navigator'></div>
 
   </body>
 </html>
