@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "standard",
-    "start": "npm run start-server"
+    "start": "npm run start-server",
+    "start-server": "http-server"
   },
   "author": "",
   "license": "ISC",
